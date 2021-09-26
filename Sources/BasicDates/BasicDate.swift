@@ -130,10 +130,18 @@ extension BasicDate: Equatable, Comparable {
 	}
 	
 	public static func - (lhs: BasicDate, rhs: Int) -> BasicDate {
-		return lhs.advancedBy(day: rhs)
+		return lhs.advancedBy(day: -rhs)
 	}
 	
 	public static func - (lhs: BasicDate, rhs: BasicDate) -> Int {
 		return lhs.distance(to: rhs)
+	}
+	
+	public static func += (lhs: inout BasicDate, rhs: Int) {
+		lhs = lhs.advancedBy(day: rhs)
+	}
+	
+	public static func -= (lhs: inout BasicDate, rhs: Int) {
+		lhs = lhs.advancedBy(day: -rhs)
 	}
 }
