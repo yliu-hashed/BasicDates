@@ -2,7 +2,7 @@
 ![Made With Swift](https://img.shields.io/badge/Made%20with-Swift-orange?style=for-the-badge&logo=Swift)
 # BasicDates (Swift)
 
-```BasicDate``` is confusion and intuitive free timezone independent date representation structure in **Swift**. It include a structure called ```BasicDate``` and that's it no fancy stuff, just a simple structure. The ```BasicDate``` structure represent a single day and that's it, no timezone, no time even. It represent a day, no hour, no minute, just a simple date. 
+```BasicDate``` is a timezone independent date representation structure in **Swift**. It include a structure called ```BasicDate``` and that's it no fancy stuff, just a simple structure. The ```BasicDate``` structure represent a single day and that's it, no timezone, no time even. It represent a day, no hour, no minute, just a simple date. 
 
 Traditionally, storing a event at a specific day involves calculating the start of the event day, and storing it as ```Date```. But it is unreliable becuase if you move to a earlier timezone, event stored as tomorrow's will be displayed as it is today's. To medigate this problem, ```BasicDate``` is created. 
 
