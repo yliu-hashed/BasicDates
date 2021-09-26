@@ -1,6 +1,5 @@
-[![Github release](https://img.shields.io/github/downloadsYuandaLiu-Hashed/BasicDates/total.svg)](https://github.com/YuandaLiu-Hashed/BasicDates/releases)
-[![Github release](https://img.shields.io/github/repo-size/YuandaLiu-Hashed/BasicDates.svg?color=blue)](https://github.com/YuandaLiu-Hashed/BasicDates/releases)
-
+[![Repo Size](https://img.shields.io/github/repo-size/YuandaLiu-Hashed/BasicDates.svg?style=for-the-badge&color=blue)](https://github.com/YuandaLiu-Hashed/BasicDates/releases)
+![Made With Swift](https://img.shields.io/badge/Made%20with-Swift-orange?style=for-the-badge&logo=Swift)
 # BasicDates (Swift)
 
 ```BasicDate``` is confusion and intuitive free timezone independent date representation structure in **Swift**. It include a structure called ```BasicDate``` and that's it no fancy stuff, just a simple structure. The ```BasicDate``` structure represent a single day and that's it, no timezone, no time even. It represent a day, no hour, no minute, just a simple date. 
