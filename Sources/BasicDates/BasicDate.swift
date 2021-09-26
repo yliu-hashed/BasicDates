@@ -134,7 +134,7 @@ extension BasicDate: Equatable, Comparable {
 	}
 	
 	public static func - (lhs: BasicDate, rhs: BasicDate) -> Int {
-		return lhs.distance(to: rhs)
+		return -lhs.distance(to: rhs)
 	}
 	
 	public static func += (lhs: inout BasicDate, rhs: Int) {
